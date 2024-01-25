@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Bootstrap Navbar-Offcanvas</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+        />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md bg-info" data-bs-theme="light">
+            <div class="container">
+                <div class="navbar-brand">
+                    <i class="bi bi-house-heart-fill"></i>
+                </div>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" id="offcanvasNavbar">
+                    <button
+                        class="btn-close m-3"
+                        type="button"
+                        data-bs-dismiss="offcanvas"
+                    ></button>
+                    <div class="offcanvas-header">
+                        <div class="offcanvas-title">Developers</div>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div>
+                            Yazılım geliştiriciler, sık sık karşılaştıkları
+                            zorluklar nedeniyle zaman zaman derin acılar
+                            çekebilirler. Kod yazarken karşılaşılan hatalar,
+                            beklenmedik sorunlar ve teknolojik zorluklar,
+                            geliştiricilerin sabrını ve azmini sarsabilir. Uzun
+                            saatler boyunca bilgisayar başında oturmak, karmaşık
+                            projelerle uğraşmak ve sürekli olarak güncel kalmak,
+                            bir geliştiricinin yaşadığı acıları artırabilir.
+                            Ayrıca, sürekli olarak değişen teknolojik ortam,
+                            geliştiricilerin sürekli öğrenme ve gelişme baskısı
+                            altında hissetmelerine neden olabilir. Ancak, bu
+                            acılar genellikle başarıya giden yolda atılan
+                            adımların bir parçasıdır ve geliştiriciler,
+                            karşılaştıkları zorlukları aşarak daha güçlü ve
+                            yetenekli hale gelirler. Bu süreçte yaşanan acılar,
+                            geliştiricilerin mesleki gelişimlerine katkıda
+                            bulunabilir ve sonunda başarılarını daha değerli
+                            kılar.
+                        </div>
+                        <div class="dropdown">
+                            <button
+                                class="btn btn-secondary dropdown-toggle mt-2"
+                                data-bs-toggle="dropdown"
+                            >
+                                Settings
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#" class="dropdown-item">Copy</a>
+                                </li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li>
+                                    <a href="#" class="dropdown-item">Paste</a>
+                                </li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li>
+                                    <a href="#" class="dropdown-item">Cut</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

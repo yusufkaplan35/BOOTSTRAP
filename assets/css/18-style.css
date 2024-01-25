@@ -1,0 +1,25 @@
+.cardMenu{
+    text-align: center;
+    
+}
+.cardMenu .card .card-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+.cardMenu .card .card-footer >div{
+    border-right: 1.3px solid rgb(181, 194, 212);
+    flex: 1;
+    padding: 8px;
+    
+}
+.cardMenu .card .card-footer >div:last-child{
+    border-right: none;
+}
+@media screen and (min-width:992px)  {
+    .cardMenu div[class^=col]:nth-child(2) .card{
+        transform: scale(1.1)!important;
+    }
+    
+}
